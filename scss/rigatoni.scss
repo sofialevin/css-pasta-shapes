@@ -1,0 +1,27 @@
+.rigatoni {
+  border: 1px solid $ridges;
+  height: 200px;
+  width: 75px;
+  border-radius: 50px;
+  background: repeating-linear-gradient(
+  90deg,
+  $ridges,
+  $ridges 1px,
+  $pasta 2px,
+  $pasta 6px
+);
+  background-color: $pasta;
+  &:before {
+  border: 2px solid $ridges;
+  height: 75px;
+  width: 73px;
+  border-radius: 50%;
+  background-color: $pasta;
+  }
+  // &:before {
+  // height: 75px;
+  // width: 5px;
+  // box-shadow: 2px 0px $ridges;
+  // top: 10px;
+  // }
+}

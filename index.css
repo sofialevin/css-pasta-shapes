@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: white;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  position: absolute;
+}
+
+*:before, *:after {
+  position: absolute;
+  content: "";
+}
+
+.rigatoni {
+  border: 1px solid #f1881e;
+  height: 200px;
+  width: 75px;
+  border-radius: 50px;
+  background: repeating-linear-gradient(90deg, #f1881e, #f1881e 1px, #faab18 2px, #faab18 6px);
+  background-color: #faab18;
+}
+.rigatoni:before {
+  border: 2px solid #f1881e;
+  height: 75px;
+  width: 73px;
+  border-radius: 50%;
+  background-color: #faab18;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin:0;
+}
+body {
+  background: $background;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
+  position: absolute;
+}
+*:before, *:after {
+  position: absolute;
+  content: '';
+}
