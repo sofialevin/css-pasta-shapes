@@ -47,18 +47,18 @@ html {
   background-color: #faab18;
 }
 
-.fusilli {
+.farfalle {
   left: 120px;
   background-color: #faab18;
 }
-.fusilli .left {
+.farfalle .left {
   background-color: #faab18;
   width: 80px;
   height: 100px;
   border: 1px solid #f1881e;
   border-radius: 3% 100% 100% 0%/3% 50% 50% 0%;
 }
-.fusilli .left:after {
+.farfalle .left:after {
   left: -10px;
   width: 20px;
   height: 100px;
@@ -67,7 +67,7 @@ html {
   background-repeat: repeat-y;
   background-position: 0 10px;
 }
-.fusilli .right {
+.farfalle .right {
   left: 80px;
   background-color: #faab18;
   width: 80px;
@@ -75,7 +75,7 @@ html {
   border: 1px solid #f1881e;
   border-radius: 100% 0% 0% 100%/50% 0% 0% 50%;
 }
-.fusilli:after {
+.farfalle:after {
   width: 20px;
   height: 200px;
   left: 150px;
@@ -84,7 +84,7 @@ html {
   background-repeat: repeat-y;
   background-position: 0 10px;
 }
-.fusilli .middle {
+.farfalle .middle {
   z-index: 2;
   border-top: 1px solid #f1881e;
   left: 55px;
@@ -92,18 +92,74 @@ html {
   height: 25px;
   width: 50px;
 }
-.fusilli .middle:before {
+.farfalle .middle:before {
   top: -50px;
   height: 50px;
   border-bottom: 2px solid #f1881e;
   border-radius: 0% 0% 77% 77%/0% 0% 77% 77%;
   width: 100%;
 }
-.fusilli .middle:after {
+.farfalle .middle:after {
   height: 50px;
   border-top: 2px solid #f1881e;
   border-radius: 77% 77% 0% 0%/77% 77% 0% 0%;
   width: 100%;
+}
+
+.orzos {
+  display: flex;
+  left: 120px;
+  top: 150px;
+  position: absolute;
+}
+.orzos .orzo {
+  margin: 7px;
+  position: relative;
+  background-color: #faab18;
+  height: 40px;
+  width: 10px;
+  border-radius: 74% 77% 75% 77%/74% 77% 75% 77%;
+  border: 1px solid #f1881e;
+}
+
+.fusilli {
+  top: 100px;
+  left: 300px;
+}
+.fusilli .middle {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #f1881e;
+  transform: skewY(30deg);
+  border-radius: 27% 19% 29% 16%/52% 51% 43% 42%;
+  background-color: #faab18;
+}
+.fusilli .middle:before {
+  background-color: #faab18;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #f1881e;
+  transform: skewY(0deg);
+  border-radius: 27% 19% 29% 16%/52% 51% 43% 42%;
+  top: 39px;
+}
+.fusilli .middle:after {
+  background-color: #faab18;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #f1881e;
+  transform: skewY(0deg);
+  border-radius: 27% 19% 29% 16%/52% 51% 43% 42%;
+  top: -39px;
+}
+.fusilli .bottom {
+  background-color: #faab18;
+  width: 69px;
+  height: 37.5px;
+  border: 1px solid #f1881e;
+  border-radius: 31% 34% 32% 34%/52% 0% 0% 54%;
+  z-index: -1;
+  top: 56.5px;
 }
 
 /*# sourceMappingURL=index.css.map */

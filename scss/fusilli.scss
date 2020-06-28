@@ -1,74 +1,40 @@
 .fusilli {
-  left: 120px;
-  background-color: $pasta;
-  .left {
-    &:after {
-      left: -10px;
-      width: 20px;
-      height: 100px;
-      background-image: 
-    linear-gradient(
-        -225deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    ),
-    linear-gradient(
-        45deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    ),;
-  background-size: 100% 20px;
-  background-repeat:repeat-y;
-      background-position: 0 10px;
-    }
-    background-color: $pasta;
+  top: 100px;
+  left: 300px;
+  .middle {
     width: 80px;
-    height: 100px;
+    height: 40px;
     border: 1px solid $ridges;
-    border-radius: 3% 100% 100% 0% / 3% 50% 50% 0%;
-    // left: -160px;
+    transform: skewY(30deg);
+    border-radius: 27% 19% 29% 16% / 52% 51% 43% 42%;
+    background-color: $pasta;
+    &:before {
+      background-color: $pasta;
+      width: 80px;
+      height: 40px;
+      border: 1px solid $ridges;
+      transform: skewY(0deg);
+      border-radius: 27% 19% 29% 16% / 52% 51% 43% 42%;
+  top: 39px;
+    }
+    &:after {
+      background-color: $pasta;
+      width: 80px;
+      height: 40px;
+      border: 1px solid $ridges;
+      transform: skewY(0deg);
+      border-radius: 27% 19% 29% 16% / 52% 51% 43% 42%;
+  top: -39px;
+    }
   }
-  .right {
-    left: 80px;
+
+  .bottom {
     background-color: $pasta;
-    width: 80px;
-    height: 100px;
+    width: 69px;
+    height: 37.5px;
     border: 1px solid $ridges;
-    border-radius: 100% 0% 0% 100% / 50% 0% 0% 50%;
-    }
-    &:after {
-      width: 20px;
-      height: 200px;
-      left: 150px;
-      background-image: linear-gradient(
-        -45deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    ),
-     linear-gradient(
-        225deg,
-        rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%
-    );
-  background-size: 100% 20px;
-  background-repeat:repeat-y;
-      background-position: 0 10px;
-    }
-    .middle {
-      z-index: 2;
-      border-top: 1px solid $ridges;
-      left: 55px;
-      top: 50px;
-      height: 25px;
-      width: 50px;
-      &:before {
-        top: -50px;
-        height: 50px;
-        border-bottom: 2px solid $ridges;
-        border-radius: 0% 0% 77% 77% / 0% 0% 77% 77%;
-        width: 100%;
-      }
-      &:after {
-        height: 50px;
-        border-top: 2px solid $ridges;
-        border-radius: 77% 77% 0% 0% / 77% 77% 0% 0%;
-        width: 100%;
-      }
-    }
+    border-radius: 31% 34% 32% 34% / 52% 0% 0% 54%;
+    z-index: -1;
+    top: 56.5px;
+  }
 }

@@ -1,0 +1,15 @@
+.orzos {
+  display: flex;
+  left: 120px;
+  top: 150px;
+  position: absolute;
+  .orzo {
+    margin: 7px;
+    position: relative;
+    background-color: $pasta;
+    height: 40px;
+    width: 10px;
+    border-radius: 74% 77% 75% 77% / 74% 77% 75% 77%;
+    border: 1px solid $ridges;
+  }
+}
