@@ -1,0 +1,78 @@
+.tagliatelle {
+  left: 400px;
+  top: 60px;
+  .oval4 {
+    transform: rotate(47deg);
+    height: 80px;
+    width: 110px;
+    border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+    background-color: $pasta;
+    border: 1px solid $ridges;
+    top: 10px;
+    &:after {
+      height: 70px;
+      width: 100px;
+      background-color: white;
+      border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+      left: 3px;
+      top: 2px;
+      border: 1px solid $ridges;
+    }
+  }
+  
+  .oval2 {
+    height: 108px;
+    width: 150px;
+    border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+    background-color: $pasta;
+    border: 1px solid $ridges;
+    &:after {
+      height: 95px;
+      width: 135px;
+      background-color: white;
+      border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+      left: 3px;
+      top: 3px;
+      border: 1px solid $ridges;
+    }
+  }
+  
+  .oval1 {
+    z-index: -1;
+    transform: rotate(20deg);
+    height: 126px;
+    width: 150px;
+    border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+    background-color: $pasta;
+    border: 1px solid $ridges;
+    &:after {
+      height: 110px;
+      width: 135px;
+      background-color: white;
+      border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+      left: 3px;
+      top: 3px;
+      border: 1px solid $ridges;
+    }
+  }
+  
+  .oval3 {
+    transform: skewY(10deg);
+    transform: rotate(95deg);
+    top: -3px;
+    height: 105px;
+    width: 130px;
+    border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+    background-color: $pasta;
+    border: 1px solid $ridges;
+    &:after {
+      height: 95px;
+      width: 120px;
+      background-color: white;
+      border-radius: 48% 61% 64% 48% / 48% 61% 49% 48%;
+      left: 3px;
+      top: 3px;
+      border: 1px solid $ridges;
+    }
+  }
+}
