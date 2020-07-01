@@ -48,6 +48,10 @@ main {
   top: 140px;
 }
 
+.pasta {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 24px 0px;
+}
+
 .rigatoni {
   border: 1px solid #f1881e;
   height: 200px;
